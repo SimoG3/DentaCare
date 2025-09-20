@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+
+.dashboard-main {
+  padding: 2rem;
+  font-family: 'Inter', sans-serif;
+  background-color: #fff;
+  color: #111;
+}
+
+.dashboard-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.dashboard-overlay {
+  padding: 2rem;
+  background-color: #f8f8f8;
+  font-family: 'Inter', sans-serif;
+}
+
+.overlay-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.overlay-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.overlay-hour {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+}
+
+.hour-label {
+  font-weight: 600;
+  color: #333;
+}
+
+.appointment-card {
+  margin-top: 0.5rem;
+  background-color: #f0f0f0;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.no-appointment {
+  color: #aaa;
+  font-style: italic;
+}

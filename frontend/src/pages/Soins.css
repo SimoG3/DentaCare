@@ -1,0 +1,37 @@
+.greyThing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #757575;
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  height: 300px;
+  width: 100vw;
+}
+
+.description-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;      /* occupe tout l’écran */
+  background-color: #fff; /* fond blanc */
+  padding: 1rem;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0.9px;
+  line-height: 1.8;
+}
+
+.description-text {
+  max-width: 800px;
+  text-align: center;
+  font-size: 0.9rem;       /* comme ton exemple */
+  color: #1f1d1d;          /* gris foncé */
+  margin-bottom: 0.4rem;
+  line-height: 1.6;
+  text-decoration: none;   /* pas de soulignement */
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0.9px;
+  line-height: 1.8;
+}
